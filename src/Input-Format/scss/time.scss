@@ -1,0 +1,71 @@
+@import "variables.scss";
+
+.m-time {
+  color: $color-white;
+  padding-top: 50px;
+
+  .showtime {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .separater {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    color: $color-blue;
+    width: 32px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+  }
+
+  .time-text {
+    position: relative;
+    left: -10px;
+    font-size: 15px;
+    color: $color-blue;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+
+  .sliders {
+    padding: 0 10px;
+  }
+
+  .time {
+    .numberInput {
+      width: 80px;
+      height: 65px;
+      color: $color-white;
+      display: inline-block;
+      font-size: 38px;
+      line-height: 65px;
+      background-color: $color-blue;
+      border: none;
+      border-radius: 3px;
+      text-align: center;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  // .meridiem {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  //   .antimeridiem,
+  //   .primemeridiem {
+  //     width: 25px;
+  //     height: 25px;
+  //     color: $color-black;
+  //     &.is-active {
+  //       color: $color-white;
+  //       background: $color-blue;
+  //     }
+  //   }
+  // }
+}

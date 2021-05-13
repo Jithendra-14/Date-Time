@@ -1,0 +1,56 @@
+.m-calendar {
+  display: inline-block;
+}
+.m-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+.m-calendar td {
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #dfe0e4;
+}
+.m-calendar thead td {
+  color: #1385e5;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.m-calendar tbody td {
+  color: #666666;
+  font-size: 10px;
+}
+.m-calendar tbody td:hover {
+  background: #1385e5;
+  border-color: #1385e5;
+  color: #ffffff;
+}
+.m-calendar .current-day {
+  color: #fff;
+  font-weight: bold;
+  background: radial-gradient(circle, #1385e5 50%, #fff 50%);
+}
+.m-calendar .toolbar {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.m-calendar .toolbar button {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #1385e5;
+  background: #1385e5;
+  padding: 0;
+  cursor: pointer;
+}
+.m-calendar .toolbar .current-date {
+  color: #1385e5;
+}
+
+/*# sourceMappingURL=calendar.css.map */
